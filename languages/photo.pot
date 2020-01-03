@@ -38,6 +38,12 @@ msgstr ""
 msgid "Edit Photo"
 msgstr ""
 
+msgid "Select a photo"
+msgstr ""
+
+msgid "Choose different photo"
+msgstr ""
+
 #: ./templates/default/entity/Photo/edit.tpl.php:50
 msgid "Give it a title"
 msgstr ""
@@ -62,6 +68,10 @@ msgstr ""
 msgid "Publish"
 msgstr ""
 
+#: ./templates/default/entity/Photo/edit.tpl.php:129
+msgid "Add the URL that you're replying to"
+msgstr ""
+
 #: ./templates/default/entity/Photo.tpl.php:38
 msgid "%d more..."
 msgstr ""
@@ -71,14 +81,14 @@ msgid "Untitled"
 msgstr ""
 
 #: ./Photo.php:178
-msgid "Image wasn\\'t attached."
+msgid "Image wasn't attached."
 msgstr ""
 
 #: ./Photo.php:182
-msgid "This doesn\\'t seem to be an image..."
+msgid "This doesn't seem to be an image..."
 msgstr ""
 
 #: ./Photo.php:199
-msgid "We couldn\\'t access your image for an unknown reason. Please try again."
+msgid "We couldn't access your image for an unknown reason. Please try again."
 msgstr ""
 

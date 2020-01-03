@@ -114,8 +114,8 @@ if (!empty($vars['url'])) {
 
             <p>
                 <small><a id="inreplyto-add" href="#"
-                          onclick="$('#inreplyto').append('<span><input required type=&quot;url&quot; name=&quot;inreplyto[]&quot; value=&quot;&quot; placeholder=&quot;Add the URL that you\'re replying to&quot; class=&quot;form-control&quot; onchange=&quot;adjust_content(this.value)&quot; /> <small><a href=&quot;#&quot; onclick=&quot;$(this).parent().parent().remove(); return false;&quot;><icon class=&quot;fa fa-times&quot;></icon> Remove URL</a></small><br /></span>'); return false;"><i class="fa fa-reply"></i>
-                        <?php echo \Idno\Core\Idno::site()->language()->_('Reply to a site'); ?></a></small>
+                          onclick="$('#inreplyto').append('<span><input required type=&quot;url&quot; name=&quot;inreplyto[]&quot; value=&quot;&quot; placeholder=&quot;<?php echo \Idno\Core\Idno::site()->language()->esc_("Add the URL that you're replying to"); ?>&quot; class=&quot;form-control&quot; onchange=&quot;adjust_content(this.value)&quot; /> <small><a href=&quot;#&quot; onclick=&quot;$(this).parent().parent().remove(); return false;&quot;><icon class=&quot;fa fa-times&quot;></icon><?php echo \Idno\Core\Idno::site()->language()->esc_('Remove URL'); ?></a></small><br /></span>'); return false;"><i class="fa fa-reply"></i><?php
+                          echo \Idno\Core\Idno::site()->language()->_('Reply to a site'); ?></a></small>
             </p>
 
 
@@ -126,18 +126,18 @@ if (!empty($vars['url'])) {
                         ?>
                             <p>
                                 <input type="url" name="inreplyto[]"
-                                       placeholder="Add the URL that you're replying to"
+                                       placeholder="<?php echo \Idno\Core\Idno::site()->language()->_("Add the URL that you're replying to"); ?>"
                                        class="form-control inreplyto" value="<?php echo htmlspecialchars($inreplyto) ?>" onchange="adjust_content(this.value)"/>
                                 <small><a href="#"
-                                          onclick="$(this).parent().parent().remove(); return false;"><i class="fa fa-times"></i>
-                                      <?php echo \Idno\Core\Idno::site()->language()->_('Remove URL'); ?></a></small>
+                                          onclick="$(this).parent().parent().remove(); return false;"><i class="fa fa-times"></i><?php
+                                          echo \Idno\Core\Idno::site()->language()->_('Remove URL'); ?></a></small>
                             </p>
                         <?php
                     }
                 }
                 ?>
                 </div>
-                
+
                 <?php echo $this->drawSyndication('image', $vars['object']->getPosseLinks()); ?>
                 <?php if (empty($vars['object']->_id)) {
                     echo $this->__(['name' => 'forward-to', 'value' => \Idno\Core\Idno::site()->config()->getDisplayURL() . 'content/all/'])->draw('forms/input/hidden');
@@ -172,6 +172,6 @@ if (!empty($vars['url'])) {
             $('.photo-files .image-file[data-number='+number.toString()+']').show();
         });
     } );
-</script>    
+</script>
 
 <?php echo $this->draw('entity/edit/footer');
