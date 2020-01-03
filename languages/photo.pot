@@ -42,6 +42,10 @@ msgstr ""
 msgid "Give it a title"
 msgstr ""
 
+#: ./templates/default/entity/Photo/edit.tpl.php:58
+msgid "Title"
+msgstr ""
+
 #: ./templates/default/entity/Photo/edit.tpl.php:61
 msgid "Describe your photo"
 msgstr ""
