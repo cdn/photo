@@ -1,0 +1,80 @@
+#: ContentType.php:8
+msgid "Photo"
+msgstr "Foto"
+
+#: ContentType.php:9
+msgid "Photos"
+msgstr "Fotoj"
+
+#: ./Pages/Delete.php:29
+msgid "Delete %s"
+msgstr "Forigi %s"
+
+#: ./Pages/Delete.php:43
+msgid "You don't have permission to perform this task."
+msgstr "Vi ne havas permeson plenumi ĉi tiun taskon."
+
+#: ./Pages/Delete.php:48
+msgid "Your photo was deleted."
+msgstr "Via foto estis forigita"
+
+#: ./Pages/Delete.php:50
+msgid "We couldn't delete your photo."
+msgstr "Ni ne povis forigi vian foton."
+
+#: ./Pages/Edit.php:34
+msgid "Upload a picture"
+msgstr "Alŝutu foton"
+
+#: ./Pages/Edit.php:36
+msgid "Edit picture details"
+msgstr "Redakti bildajn detalojn"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:22
+msgid "New Photo"
+msgstr "Nova Foto"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:24
+msgid "Edit Photo"
+msgstr "Redakti Foton"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:50
+msgid "Give it a title"
+msgstr "Donu al ĝi titolon"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:61
+msgid "Describe your photo"
+msgstr "Priskribu vian foton"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:62
+msgid "Description"
+msgstr "Priskribo"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:77
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:78
+msgid "Publish"
+msgstr "Publikigi"
+
+#: ./templates/default/entity/Photo.tpl.php:38
+msgid "%d more..."
+msgstr "%d pliajn ..."
+
+#: ./Photo.php:25
+msgid "Untitled"
+msgstr "Sen titolo"
+
+#: ./Photo.php:178
+msgid "Image wasn't attached."
+msgstr "Bildo ne estis alligita."
+
+#: ./Photo.php:182
+msgid "This doesn't seem to be an image..."
+msgstr "Tio ne ŝajnas esti bildo ..."
+
+#: ./Photo.php:199
+msgid "We couldn't access your image for an unknown reason. Please try again."
+msgstr "Ni ne povis aliri vian bildon pro nekonata kialo. Bonvolu reprovi."
+
