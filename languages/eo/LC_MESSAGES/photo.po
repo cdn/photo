@@ -50,6 +50,21 @@ msgstr "Priskribu vian foton"
 msgid "Description"
 msgstr "Priskribo"
 
+#: ./templates/default/entity/Photo/edit.tpl.php:117
+#: ./templates/default/entity/Photo/edit.tpl.php:177
+msgid "Add the URL that you're replying to"
+msgstr "Aldonu la URL al kiu vi respondas"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:117
+#: ./templates/default/entity/Photo/edit.tpl.php:133
+#: ./templates/default/entity/Photo/edit.tpl.php:180
+msgid "Remove URL"
+msgstr "Forigi URLon"
+
+#: ./templates/default/entity/Photo/edit.tpl.php:118
+msgid "Reply to a site"
+msgstr "Respondu al retejo"
+
 #: ./templates/default/entity/Photo/edit.tpl.php:77
 msgid "Cancel"
 msgstr "Nuligi"
