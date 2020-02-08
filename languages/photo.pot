@@ -1,11 +1,3 @@
-#: ContentType.php:8
-msgid "Photo"
-msgstr ""
-
-#: ContentType.php:9
-msgid "Photos"
-msgstr ""
-
 #: ./Pages/Delete.php:29
 msgid "Delete %s"
 msgstr ""
@@ -54,6 +46,10 @@ msgstr ""
 msgid "Edit Photo"
 msgstr ""
 
+#: ./templates/default/entity/Photo/edit.tpl.php:58
+msgid "Title"
+msgstr ""
+
 #: ./templates/default/entity/Photo/edit.tpl.php:62
 msgid "Give it a title"
 msgstr ""
@@ -67,6 +63,7 @@ msgid "Description"
 msgstr ""
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
+#: ./templates/default/entity/Photo/edit.tpl.php:129
 #: ./templates/default/entity/Photo/edit.tpl.php:177
 msgid "Add the URL that you're replying to"
 msgstr ""

@@ -38,7 +38,7 @@ if (!empty($vars['url'])) {
 
                     ?>
                 </h4>
-                
+
                 <div class="photo-files <?php if ($multiple) echo "multiple-images"; ?>" data-num-pics="<?php echo $num_pics; ?>">
                     <?php for ($n = 0; $n < 10; $n++) { ?>
                         <div class="image-file" data-number="<?php echo $n; ?>" style="<?php if ($n > 0) echo 'display: none;'; ?>">
@@ -55,7 +55,7 @@ if (!empty($vars['url'])) {
 
                     <div class="content-form">
                         <label for="title">
-                            Title</label>
+                            <?php echo \Idno\Core\Idno::site()->language()->_('Title'); ?></label>
                         <?php echo $this->__([
                             'name' => 'title',
                             'id' => 'title',
@@ -126,11 +126,11 @@ if (!empty($vars['url'])) {
                         ?>
                             <p>
                                 <input type="url" name="inreplyto[]"
-                                       placeholder="Add the URL that you're replying to"
+                                       placeholder="<?php echo \Idno\Core\Idno::site()->language()->_('Add the URL that you\'re replying to'); ?>"
                                        class="form-control inreplyto" value="<?php echo htmlspecialchars($inreplyto) ?>" onchange="adjust_content(this.value)"/>
                                 <small><a href="#"
-                                          onclick="$(this).parent().parent().remove(); return false;"><i class="fa fa-times"></i>
-                                      <?php echo \Idno\Core\Idno::site()->language()->_('Remove URL'); ?></a></small>
+                                          onclick="$(this).parent().parent().remove(); return false;"><i class="fa fa-times"></i><?php
+                                          echo \Idno\Core\Idno::site()->language()->_('Remove URL'); ?></a></small>
                             </p>
                         <?php
                     }
