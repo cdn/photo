@@ -1,100 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: es_ES\n"
+
 #: ContentType.php:8
 msgid "Photo"
-msgstr ""
+msgstr "Foto"
 
 #: ContentType.php:9
 msgid "Photos"
-msgstr ""
+msgstr "Fotos"
 
 #: ./Pages/Delete.php:29
 msgid "Delete %s"
-msgstr ""
+msgstr "Eliminar %s"
 
 #: ./Pages/Delete.php:43
 msgid "You don't have permission to perform this task."
-msgstr ""
+msgstr "No tiene permiso para realizar esta tarea."
 
 #: ./Pages/Delete.php:48
 msgid "Your photo was deleted."
-msgstr ""
+msgstr "Tu foto ha sido eliminada."
 
 #: ./Pages/Delete.php:50
 msgid "We couldn't delete your photo."
-msgstr ""
+msgstr "No pudimos eliminar tu foto."
 
 #: ./Pages/Edit.php:34
 msgid "Upload a picture"
-msgstr ""
+msgstr "Sube una foto"
 
 #: ./Pages/Edit.php:36
 msgid "Edit picture details"
-msgstr ""
+msgstr "Edición de detalles de imagen"
 
 #: ./Photo.php:14
 msgid "Untitled"
-msgstr ""
+msgstr "Sin título"
 
 #: ./Photo.php:220
 msgid "Image wasn't attached."
-msgstr ""
+msgstr "La imagen no se ha adjuntado."
 
 #: ./Photo.php:224
 msgid "This doesn't seem to be an image..."
-msgstr ""
+msgstr "Esto no parece ser una foto..."
 
 #: ./Photo.php:242
 msgid "We couldn't access your image for an unknown reason. Please try again."
 msgstr ""
+"No pudimos acceder a tu imagen por una razón desconocida. "
+"Por favor, inténtelo de nuevo."
 
 #: ./templates/default/entity/Photo/edit.tpl.php:34
 msgid "New Photo"
-msgstr ""
+msgstr "Nueva foto"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:36
 msgid "Edit Photo"
-msgstr ""
+msgstr "Editar foto"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:58
 msgid "Title"
-msgstr ""
+msgstr "Título"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:62
 msgid "Give it a title"
-msgstr ""
+msgstr "Dale un título"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:73
 msgid "Describe your photo"
-msgstr ""
+msgstr "Describa su foto"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:74
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
 #: ./templates/default/entity/Photo/edit.tpl.php:129
 #: ./templates/default/entity/Photo/edit.tpl.php:177
 msgid "Add the URL that you're replying to"
-msgstr ""
+msgstr "Añade la URL a la que respondes"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
 #: ./templates/default/entity/Photo/edit.tpl.php:133
 #: ./templates/default/entity/Photo/edit.tpl.php:180
 msgid "Remove URL"
-msgstr ""
+msgstr "Eliminar URL"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:118
 msgid "Reply to a site"
-msgstr ""
+msgstr "Responder a un sitio"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:149
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:150
 msgid "Publish"
-msgstr ""
+msgstr "Publicar"
 
 #: ./templates/default/entity/Photo.tpl.php:41
 msgid "%d more..."
-msgstr ""
-
+msgstr "%d más..."
