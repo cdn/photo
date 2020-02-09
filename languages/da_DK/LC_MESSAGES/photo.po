@@ -1,30 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: $EDITOR\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: da_DK\n"
+
 #: ContentType.php:8
 msgid "Photo"
-msgstr ""
+msgstr "Foto"
 
 #: ContentType.php:9
 msgid "Photos"
-msgstr ""
+msgstr "Billeder"
 
 #: ./Pages/Delete.php:29
 msgid "Delete %s"
-msgstr ""
+msgstr "Slet %s"
 
 #: ./Pages/Delete.php:43
 msgid "You don't have permission to perform this task."
-msgstr ""
+msgstr "Du har ikke tilladelse til at udføre denne opgave."
 
 #: ./Pages/Delete.php:48
 msgid "Your photo was deleted."
-msgstr ""
+msgstr "Dit billede blev slettet."
 
 #: ./Pages/Delete.php:50
 msgid "We couldn't delete your photo."
-msgstr ""
+msgstr "Vi kunne ikke slette dit billede."
 
 #: ./Pages/Edit.php:34
 msgid "Upload a picture"
-msgstr ""
+msgstr "Overføre et billede"
 
 #: ./Pages/Edit.php:36
 msgid "Edit picture details"
@@ -40,7 +54,7 @@ msgstr ""
 
 #: ./Photo.php:224
 msgid "This doesn't seem to be an image..."
-msgstr ""
+msgstr "Dette synes ikke at være et billede ..."
 
 #: ./Photo.php:242
 msgid "We couldn't access your image for an unknown reason. Please try again."
@@ -48,53 +62,52 @@ msgstr ""
 
 #: ./templates/default/entity/Photo/edit.tpl.php:34
 msgid "New Photo"
-msgstr ""
+msgstr "Nyt billede"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:36
 msgid "Edit Photo"
-msgstr ""
+msgstr "Rediger billede"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:58
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:62
 msgid "Give it a title"
-msgstr ""
+msgstr "Giv det en titel"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:73
 msgid "Describe your photo"
-msgstr ""
+msgstr "Beskriv dit billede"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:74
 msgid "Description"
-msgstr ""
+msgstr "Beskrivelse"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
 #: ./templates/default/entity/Photo/edit.tpl.php:129
 #: ./templates/default/entity/Photo/edit.tpl.php:177
 msgid "Add the URL that you're replying to"
-msgstr ""
+msgstr "Tilføj den URL-adresse, du besvarer"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
 #: ./templates/default/entity/Photo/edit.tpl.php:133
 #: ./templates/default/entity/Photo/edit.tpl.php:180
 msgid "Remove URL"
-msgstr ""
+msgstr "Fjern URL-adresse"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:118
 msgid "Reply to a site"
-msgstr ""
+msgstr "Svar på et websted"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:149
 msgid "Cancel"
-msgstr ""
+msgstr "Annullere"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:150
 msgid "Publish"
-msgstr ""
+msgstr "Udgive"
 
 #: ./templates/default/entity/Photo.tpl.php:41
 msgid "%d more..."
-msgstr ""
-
+msgstr "%d mere..."
