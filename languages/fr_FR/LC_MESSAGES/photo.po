@@ -46,13 +46,13 @@ msgstr "L’image n’était pas attachée."
 
 #: ./Photo.php:224
 msgid "This doesn't seem to be an image..."
-msgstr "Cela ne semble pas être une image ..."
+msgstr "Cela ne semble pas être une image..."
 
 #: ./Photo.php:242
 msgid "We couldn't access your image for an unknown reason. Please try again."
 msgstr ""
 "Nous n’avons pas pu accéder à votre image pour une raison inconnue. "
-"S’ll vous plaît, réessayez."
+"S’il vous plaît, réessayez."
 
 #: ./templates/default/entity/Photo/edit.tpl.php:34
 msgid "New Photo"
@@ -104,4 +104,4 @@ msgstr "Publier"
 
 #: ./templates/default/entity/Photo.tpl.php:41
 msgid "%d more..."
-msgstr ""
+msgstr "%d plus..."
