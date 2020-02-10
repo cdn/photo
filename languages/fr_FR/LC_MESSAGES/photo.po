@@ -22,7 +22,7 @@ msgstr "Vous n’avez pas la permission d’effectuer cette tâche."
 
 #: ./Pages/Delete.php:48
 msgid "Your photo was deleted."
-msgstr "Votre photo a été supprimé."
+msgstr "Votre photo a été supprimée."
 
 #: ./Pages/Delete.php:50
 msgid "We couldn't delete your photo."
@@ -46,13 +46,13 @@ msgstr "L’image n’était pas attachée."
 
 #: ./Photo.php:224
 msgid "This doesn't seem to be an image..."
-msgstr "Cela ne semble pas être une image ..."
+msgstr "Cela ne semble pas être une image..."
 
 #: ./Photo.php:242
 msgid "We couldn't access your image for an unknown reason. Please try again."
 msgstr ""
 "Nous n’avons pas pu accéder à votre image pour une raison inconnue. "
-"S’ll vous plaît, réessayez."
+"S’il vous plaît, réessayez."
 
 #: ./templates/default/entity/Photo/edit.tpl.php:34
 msgid "New Photo"
@@ -76,7 +76,7 @@ msgstr "Décrivez votre photo"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:74
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
 #: ./templates/default/entity/Photo/edit.tpl.php:129
@@ -104,4 +104,4 @@ msgstr "Publier"
 
 #: ./templates/default/entity/Photo.tpl.php:41
 msgid "%d more..."
-msgstr ""
+msgstr "%d plus..."
