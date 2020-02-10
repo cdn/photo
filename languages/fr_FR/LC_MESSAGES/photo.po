@@ -22,7 +22,7 @@ msgstr "Vous n’avez pas la permission d’effectuer cette tâche."
 
 #: ./Pages/Delete.php:48
 msgid "Your photo was deleted."
-msgstr "Votre photo a été supprimé."
+msgstr "Votre photo a été supprimée."
 
 #: ./Pages/Delete.php:50
 msgid "We couldn't delete your photo."
@@ -76,7 +76,7 @@ msgstr "Décrivez votre photo"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:74
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ./templates/default/entity/Photo/edit.tpl.php:117
 #: ./templates/default/entity/Photo/edit.tpl.php:129
