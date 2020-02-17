@@ -1,19 +1,19 @@
 <?php
- 
+
     if (empty($vars['id']))
         $vars['id'] = 'photo-' . md5(rand());
-    
+
     $multiple = false;
     if (strpos($vars['name'], '[]') !== false)
         $multiple = true;
-    
+
     $hide_existing = false;
     if (!empty($vars['hide-existing']))
         $hide_existing = true;
 ?>
 <div class="image-file-input">
     <div class="photo-preview-existing">
-        <?php 
+        <?php
         if (!empty($vars['object']->_id) && !$hide_existing) {
 
             $attachments = $vars['object']->getAttachments();
@@ -50,41 +50,41 @@
                         <?= \Idno\Core\Idno::site()->actions()->createLink(
                                 \Idno\Core\Idno::site()->config()->getDisplayURL() . 'attachment/' . $vars['object']->getId() . '/' . $attachment['_id'] . '/', 
                                 '<i class="fa fa-trash-o"></i>',
-                                [], 
+                                [],
                                 [
-                                    'method' => 'POST', 
-                                    'class' => 'edit', 
-                                    'confirm' => true, 
+                                    'method' => 'POST',
+                                    'class' => 'edit',
+                                    'confirm' => true,
                                     'confirm-text' => \Idno\Core\Idno::site()->language()->_("Are you sure you want to permanently delete this?")
                                 ]); ?>
                     </span>
                     <?php } ?>
                     <img src="<?= $this->makeDisplayURL($src) ?>" class="existing"/>
                 </div>
-        <?php     
+        <?php
             }
         }
         ?>
     </div>
     <div class="photo-preview" id="<?= $vars['id']; ?>_preview">
         <img id="<?= $vars['id']; ?>_img" src="" class="preview" style="display:none; width: 400px;" />
-        <input class="form-control input" id="<?= $vars['id']; ?>_alt" name="alt[]" placeholder='alt=""' style="display:none;">
+        <input class="form-control input" id="<?= $vars['id']; ?>_alt" name="alt[]" placeholder='alt=""' style="display:none; width: 400px;" />
     </div>
     <p>
         <span class="btn btn-primary btn-file">
-            <i class="fa fa-photo na-camera"></i> 
+            <i class="fa fa-photo na-camera"></i>
             <span class="photo-filename" data-nexttext="<?= \Idno\Core\Idno::site()->language()->_('Choose different photo'); ?>">
-                <?php 
-                    if (empty($vars['object']->_id)) { 
-                        echo \Idno\Core\Idno::site()->language()->_('Select a photo'); 
-                    } else { 
+                <?php
+                    if (empty($vars['object']->_id)) {
+                        echo \Idno\Core\Idno::site()->language()->_('Select a photo');
+                    } else {
                         if (!$multiple)
-                            echo \Idno\Core\Idno::site()->language()->_('Choose different photo'); 
+                            echo \Idno\Core\Idno::site()->language()->_('Choose different photo');
                         else
-                            echo \Idno\Core\Idno::site()->language()->_('Add photo'); 
-                    } 
+                            echo \Idno\Core\Idno::site()->language()->_('Add photo');
+                    }
                 ?>
-            </span> 
+            </span>
             <?=
             $this->__([
                 'name' => $vars['name'],
