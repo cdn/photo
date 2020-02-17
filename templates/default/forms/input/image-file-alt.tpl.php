@@ -91,7 +91,7 @@
                 'id' => $vars['id'],
                 'accept' => 'image/*', // */
                 'onchange' => 'Template.activateImagePreview(this);Photoz.revealAltInput(this)',
-                'class' => 'input-file form-control col-md-9'])->draw('forms/input/file-alt');
+                'class' => 'input-file form-control col-md-9'])->draw('forms/input/file');
             ?>
         </span>
     </p>
