@@ -226,7 +226,7 @@ namespace IdnoPlugins\Photo {
                     }
                 }
 
-                $alt++;
+                $alts++;
             }
             //}
 
