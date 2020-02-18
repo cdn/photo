@@ -80,7 +80,7 @@ if (empty($vars['feed_view']) && $vars['object']->getTitle() && $vars['object']-
                    data-footer="<?php echo htmlentities(strip_tags($vars['object']->body), ENT_QUOTES, 'UTF-8'); ?>"><img
 			    loading="lazy"
                             src="<?php echo $this->makeDisplayURL($src) ?>" class="u-photo"
-                            alt="<?php echo htmlentities(strip_tags($vars['object']->getTitle()), ENT_QUOTES, 'UTF-8'); ?>"/></a>
+                            alt="<?php echo htmlentities(strip_tags($vars['object']->getTitle() . ' – ' . $vars['object']->alts[$photoCount]), ENT_QUOTES, 'UTF-8'); ?>"/></a>
             </div>
             <?php
             $photoCount++;
