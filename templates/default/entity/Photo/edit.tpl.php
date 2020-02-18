@@ -34,7 +34,7 @@
                                 'name' => 'photo[]',
                                 'hide-existing' => $n > 0,
                                 'hide-delete' => $n > 0
-                            ])->draw('forms/input/image-file'); ?>
+                            ])->draw('forms/input/image-file-alt'); ?>
                         </div>
                     <?php } ?>
                 </div>
