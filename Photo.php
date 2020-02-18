@@ -108,6 +108,7 @@ namespace IdnoPlugins\Photo {
             $this->title = \Idno\Core\Idno::site()->currentPage()->getInput('title');
             $this->body  = \Idno\Core\Idno::site()->currentPage()->getInput('body');
             $this->tags  = \Idno\Core\Idno::site()->currentPage()->getInput('tags');
+            $this->alts  = \Idno\Core\Idno::site()->currentPage()->getInput('alt');
             $access = \Idno\Core\Idno::site()->currentPage()->getInput('access');
             $this->setAccess($access);
 
@@ -133,6 +134,10 @@ namespace IdnoPlugins\Photo {
             //                    if (!empty($files[0]['tmp_name'])) {
             //                        $this->deleteAttachments(); // TODO: Allow edit/removal of existing photos
             //                    }
+
+            $acount = count($var['alt']);
+            $alts = 0;
+            $fcount = count($files);
 
             foreach ($files as $_file) {
 
@@ -217,6 +222,8 @@ namespace IdnoPlugins\Photo {
                         return false;
                     }
                 }
+
+                $alt++;
             }
             //}
 
