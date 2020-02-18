@@ -50,6 +50,9 @@ if (empty($vars['feed_view']) && $vars['object']->getTitle() && $vars['object']-
             //$mainsrc= \Idno\Core\Idno::site()->config()->getDisplayURL() . 'file/' . $attachment['_id'];
             $mainsrc = $attachment['url'];
 
+            $alt = "";
+            if (!empty($attachment['alt']))
+                $alt = $attachment['alt'];
             $filename = "";
             if (!empty($attachment['filename']))
                 $filename = $attachment['filename'];
@@ -80,6 +83,7 @@ if (empty($vars['feed_view']) && $vars['object']->getTitle() && $vars['object']-
                    data-footer="<?php echo htmlentities(strip_tags($vars['object']->body), ENT_QUOTES, 'UTF-8'); ?>"><img
 			    loading="lazy"
                             src="<?php echo $this->makeDisplayURL($src) ?>" class="u-photo"
+                            title="<?php echo htmlentities(strip_tags($alt), ENT_QUOTES, 'UTF-8'); ?>"
                             alt="<?php echo htmlentities(strip_tags($vars['object']->getTitle() . ' – ' . $vars['object']->alts[$photoCount]), ENT_QUOTES, 'UTF-8'); ?>"/></a>
             </div>
             <?php
