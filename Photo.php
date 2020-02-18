@@ -108,7 +108,8 @@ namespace IdnoPlugins\Photo {
             $this->title = \Idno\Core\Idno::site()->currentPage()->getInput('title');
             $this->body  = \Idno\Core\Idno::site()->currentPage()->getInput('body');
             $this->tags  = \Idno\Core\Idno::site()->currentPage()->getInput('tags');
-            $this->alts  = \Idno\Core\Idno::site()->currentPage()->getInput('alt');
+            $alt  = \Idno\Core\Idno::site()->currentPage()->getInput('alt');
+            $this->alts  = $alt;
             $access = \Idno\Core\Idno::site()->currentPage()->getInput('access');
             $this->setAccess($access);
 
@@ -135,7 +136,7 @@ namespace IdnoPlugins\Photo {
             //                        $this->deleteAttachments(); // TODO: Allow edit/removal of existing photos
             //                    }
 
-            $acount = count($var['alt']);
+            $acount = count($alt);
             $alts = 0;
             $fcount = count($files);
 
@@ -169,6 +170,8 @@ namespace IdnoPlugins\Photo {
 
                         if ($photo = \Idno\Entities\File::createFromFile($_file['tmp_name'], $_file['name'], $_file['type'], true, true)) {
                             $this->attachFile($photo);
+
+                            $this->attachments[$alts]['alt'] = $alt[$alts];
 
                             // Now get some smaller thumbnails, with the option to override sizes
                             $sizes = \Idno\Core\Idno::site()->events()->dispatch('photo/thumbnail/getsizes', new \Idno\Core\Event(array('sizes' => array('large' => 800, 'medium' => 400, 'small' => 200))));
