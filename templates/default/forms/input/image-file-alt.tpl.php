@@ -76,12 +76,15 @@
     </div>
     <div class="photo-preview" id="<?= $vars['id']; ?>_preview">
         <img id="<?= $vars['id']; ?>_img" src="" class="preview" style="display:none; width: 400px;" />
-                        <?php echo $this->__([
+        <input class="form-control input" id="<?= $vars['id']; ?>_alt" name="alt[]" placeholder="<?php
+             echo \Idno\Core\Idno::site()->language()->_('Describe your photo');
+         ?>" style="display:none; width: 400px;" />
+                        <?php /* echo $this->__([
                             'name' => 'alt[]',
                             'id' => $vars['id'] . '_alt',
                             'placeholder' => \Idno\Core\Idno::site()->language()->_('Describe your photo'),
                           "style"=>"display:none; width: 400px;",
-                        'class' => 'form-control'])->draw('forms/input/input'); ?>
+                        'class' => 'form-control'])->draw('forms/input/input'); */ ?>
     </div>
     <p>
         <span class="btn btn-primary btn-file">
